@@ -1,0 +1,7 @@
+{
+    "datadog.ust.environment.setup.focusedName": "development",
+    "datadog.ust.service.setup.linkedNames": [
+        "quotes-api",
+        "techstories"
+    ]
+}
