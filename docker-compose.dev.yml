@@ -65,7 +65,7 @@ services:
       - DD_LOGS_INJECTION=true
       - DD_PROFILING_ENABLED=true
       - DD_AGENT_HOST=dd-agent
-      - DD_GIT_COMMIT_SHA="fd0185bf425041b37b2fd1449878d9912fe3c85f"
+      - DD_GIT_COMMIT_SHA="5ad62ef2ff5a77e86457e749702f0ca97f555a2f"
       - DD_GIT_REPOSITORY_URL="github.com/domy-technology/datadog-techstories"
     labels:
       com.datadoghq.tags.env: "${DD_ENV}"
@@ -98,7 +98,7 @@ services:
       - NEXT_PUBLIC_QUOTES_API_URL=${NEXT_PUBLIC_QUOTES_API_URL:-http://localhost:3001}
       - NEXT_TELEMETRY_DISABLED=1
       - NODE_ENV=development
-      - DD_GIT_COMMIT_SHA="fd0185bf425041b37b2fd1449878d9912fe3c85f"
+      - DD_GIT_COMMIT_SHA="5ad62ef2ff5a77e86457e749702f0ca97f555a2f"
       - DD_GIT_REPOSITORY_URL="github.com/domy-technology/datadog-techstories"
     labels:
       com.datadoghq.tags.env: "${DD_ENV}"
