@@ -1,5 +1,4 @@
 services:
-  #teste
   dd-agent:
     image: gcr.io/datadoghq/agent:7
     environment:
